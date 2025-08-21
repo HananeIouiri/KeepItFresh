@@ -1,4 +1,5 @@
 import { Leaf, Clock, Recycle } from "lucide-react"; // install lucide-react for icons
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,9 +13,11 @@ export default function Home() {
         <p className="mt-4 text-xl text-gray-600 max-w-2xl">
           Track freshness, cut waste, and save money — your smart kitchen companion.
         </p>
-        <button className="mt-8 px-8 py-4 bg-green-600 text-white text-lg rounded-xl shadow hover:bg-green-700 transition">
-          Get Started
-        </button>
+        <Link href="/dashboard">
+          <button className="mt-8 px-8 py-4 bg-green-600 text-white text-lg rounded-xl shadow hover:bg-green-700 transition">
+           Get Started
+          </button>
+        </Link>
       </section>
 
       {/* Features */}

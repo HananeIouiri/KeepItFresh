@@ -13,7 +13,7 @@ export default function Home() {
         <p className="mt-4 text-xl text-gray-600 max-w-2xl">
           Track freshness, cut waste, and save money — your smart kitchen companion.
         </p>
-        <Link href="/dashboard">
+        <Link href="/Auth" className="mt-8">
           <button className="mt-8 px-8 py-4 bg-green-600 text-white text-lg rounded-xl shadow hover:bg-green-700 transition">
            Get Started
           </button>
